@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Hut</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+
+    <link rel="stylesheet" href="assets/css/vendor/icofont.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="assets/css/plugins/selectric.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+
+    <style>
+        img.logo-image {
+            width: 75%;
+        }
+
+        .testimonial-profile {
+
+            border-radius: 50%;
+
+        }
+
+        .clients .client {
+
+            border-radius: 50%;
+        }
+
+        .clients img {
+            max-width: 15%;
+        }
+
+        .active-page {
+            color: #fc7318 !important;
+        }
+
+        ul.meta li.meta-dot {
+            color: #ccc !important;
+            ;
+
+        }
+
+        ul.meta li.meta-dot::after {
+            content: "‣";
+            padding: 0px 0px 0px 0.5em;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0.5em;
+        }
+
+        .row .image {
+            margin-top: -100px;
+        }
+        .service-content p {
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+    
+        .brand-section {
+            margin-top: 10px;
+        }
+
+        .row .clients {
+            padding-top: -50px;
+            margin-top: -50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal offcanvas-modal fade" id="offcanvas-modal">
+        <div class="modal-dialog offcanvas-dialog">
+            <div class="modal-content">
+                <div class="modal-header offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- offcanvas-form-wrap start -->
+
+                <!-- offcanvas-form-wrap end -->
+                <!-- offcanvas-menu start -->
+                <nav id="offcanvas-menu" class="offcanvas-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                            <!-- add your sub menu here -->
+                        </li>
+                        <li>
+                            <a href="aboutus.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="industries.html">Industries</a>
+                        </li>
+                        <li>
+                            <a href="careers.html">Careers</a>
+                        </li>
+                        <li>
+                            <a href="mytechhut.html">My Tech Hut</a>
+                        </li>
+                        <li>
+                            <a href="contactus.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+
+                </nav>
+                <!-- offcanvas-menu end -->
+
+            </div>
+        </div>
+    </div>
+    <header class="header">
+
+        <div id="active-sticky" class="header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <p>
+                            <a class="main-menu-link" href="index.html"> <img src="Images/AI-FILE.jpg"
+                                    style="max-width: 65%;" /> </a>
+                        </p>
+                        <!-- <a href="index.html" class="brand-logo">
+                            <img src="assets/images/logo/logo.png" alt="brand logo" />
+                        </a> -->
+                    </div>
+                    <div class="col-auto">
+
+
+                        <button type="button" class="btn btn-warning offcanvas-toggler" data-bs-toggle="modal"
+                            data-bs-target="#offcanvas-modal">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </button>
+                        <nav class="d-none d-lg-block">
+                            <ul class="main-menu text-end">
+                                <li class="main-menu-item">
+                                    <a class="main-menu-link" href="index.html">Home</a>
+                                </li>
+                                <li class="main-menu-item">
+                                    <a class="main-menu-link" href="aboutus.html">About Us</a>
+                                </li>
+                                <li class="main-menu-item">
+                                    <a class="main-menu-link" href="industries.html">Industries</a>
+
+                                </li>
+                                <li class="main-menu-item">
+                                    <a class="main-menu-link" href="services.html">
+                                        Services
+                                    </a>
+                                </li>
+                                <li class="main-menu-item">
+                                    <a class="main-menu-link" href="careers.html">Careers</a>
+                                </li>
+                                <li class="main-menu-item">
+                                    <a class="main-menu-link" href="mytechhut.html">My Tech Hut</a>
+                                </li>
+                                <li class="main-menu-item">
+                                    <a class="main-menu-link" href="contactus.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="hero-section pb-100">
+        <img class="shape shape1" src="assets/images/hero/shape1.png" alt="img_not_found" />
+        <img class="shape shape2" src="assets/images/hero/shape2.png" alt="img_not_found" />
+        <img class="shape particle1" src="assets/images/hero/particle1.png" alt="img_not_found" />
+        <!-- <img class="shape particle2" src="assets/images/hero/particle2.png" alt="img_not_found" /> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xl-7">
+                    <div class="hero-content">
+                        <h6 class="title">Turning our Knowledge into the Solutions to your problems.</h6>
+                        <p>
+                            <span class="hr d-none d-xl-block"></span> Our Talents = Your Results
+                        </p>
+                        <p> Partnering with several small, medium and large <br> companies including Fortune 500 firms
+                            across <br> industries, experience the best in class, uniquely <br> customized and scalable
+                            workforce solutions.
+                        </p>
+                        <img class="particle3" src="assets/images/hero/particle3.png" alt="particle2" />
+                    </div>
+                </div>
+                <div class="col-lg-7 col-xl-6">
+                    <div class="hero-img">
+                        <img class="animate-one" src="assets/images/hero/1.png" alt="img_not_found" data-aos="zoom-in"
+                            data-aos-delay="100" />
+                        <div class="position-absolute animate-two">
+                            <img data-aos="fade-up" data-aos-delay="600" src="assets/images/hero/2.png"
+                                alt="img_not_found" />
+                        </div>
+
+                        <div class="position-absolute animate-three">
+                            <img data-aos="fade-down" data-aos-delay="400" src="assets/images/hero/3.png"
+                                alt="img_not_found" />
+                        </div>
+                    </div>
+
+                    <div class="hero-img-mobile">
+                        <img src="assets/images/hero/mobile.png" alt="images-not_found" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- brand section start -->
+    <div class="section-pb-50">
+        <div class="container">
+            <div class="row reverse-column">
+                <div class="col-md-6 image">
+                    <div class="animate-three">
+                        <img data-aos-delay="600" data-aos="fade-up" src="assets/images/home/Talent-On-Demand.png"
+                            alt="images not found" class="animate-one aos-init aos-animate service-animate-image" />
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="service-content talent">
+                        <h3 class="title">Talent On-Demand</h3>
+                        <p>
+                        <p>
+                            Achieve your business objectives with our wide-ranging, yet specialized spectrum of
+                            services across verticals and functions. Acquire, engage and retain the right talent
+                            on-demand - when, where and how you need it; contract, direct hire, RPO, or statement
+                            of work.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-6 ">
+                    <div class="service-content talent">
+                        <h3 class="title">Global Reach</h3>
+                        <p>
+                        <p>
+                            The talent you are searching for can be right across the street or the globe. With our
+                            skillset and every growing global network, our team has the ability to source talent
+                            virtually anywhere.</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 image">
+                    <div class="animate-two">
+                        <img data-aos-delay="1000" data-aos="fade-up" src="assets/images/home/Global-reach.png"
+                            alt="images not found" class="animate-two aos-init aos-animate" style="" />
+                    </div>
+                </div>
+            </div>
+            <div class="row reverse-column">
+                <div class="col-md-6 image">
+
+                    <div class="animate-three">
+                        <img data-aos-delay="800" data-aos="fade-down" src="assets/images/home/Cost-And-Complexity.png"
+                            alt="images not found" class="animate-three aos-init aos-animate service-animate-image" />
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="service-content talent">
+                        <h3 class="title">Cost & Complexity</h3>
+                        <p>
+                            A perfect combination of global talent, our scientific approach, proprietary technology
+                            tools and specific industry expertise delivers best in class quality with remarkable
+                            speed, and often reducing overall recruitment costs
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class=" section-pb-150" data-aos="fade-up" data-aos-delay="100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="service-card">
+                        <img class="line" src="assets/images/home/Talent-On-Demand.png" alt="images_not_found">
+                        <div class="service-icon">
+                            <div class="roted-around primary">
+                                <span></span>
+                            </div>
+                            <img src="assets/images/icon/connect.png" alt="">
+                        </div>
+                        <div class="service-content float-right">
+                            <h4 class="title">Talent On-Demand</h4>
+                            <p>
+                                Achieve your business objectives with our wide-ranging, yet specialized spectrum of
+                                services across verticals and functions. Acquire, engage and retain the right talent
+                                on-demand – when, where and how you need it; contract, direct hire, RPO, or statement
+                                of work..
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mt-2">
+                    <div class="service-card">
+                        <img class="line" src="assets/images/service/line-two.png" alt="images_not_found">
+                        <div class="service-icon">
+                            <div class="roted-around warning">
+                                <span></span>
+                            </div>
+                            <img src="assets/images/icon/analytics.png" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">Global Reach</h4>
+                            <p>
+                                The talent you are searching for can be right across the street or the globe. With our
+                                skillset and every growing global network, our team has the ability to source talent
+                                virtually anywhere.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mt-2">
+                    <div class="service-card">
+                        <img class="line" src="assets/images/service/line-one.png" alt="images_not_found">
+                        <div class="service-icon">
+                            <div class="roted-around dagnger">
+                                <span></span>
+                            </div>
+                            <img src="assets/images/icon/marketing.png" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">Cost & Complexity</h4>
+                            <p>
+                                A perfect combination of global talent, our scientific approach, proprietary technology
+                                tools and specific industry expertise delivers best in class quality with remarkable
+                                speed, and often reducing overall recruitment costs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- brand section end -->
+
+    <section class="working-process-section">
+        <div class="">
+
+            <div class="row working-process mb-n4">
+                <!-- working-process-list start -->
+                <div class="col-lg-3 col-sm-6 working-process-list mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <img class="arrow-shape" src="assets/images/working/arrow-shape1.png" alt="images_not_found" />
+                    <div class="icon">
+                        <img src="assets/images/working/1.png" alt="images_not_found" />
+                    </div>
+                    <h4 class="title">Clients</h4>
+                </div>
+                <!-- working-process-list end -->
+                <!-- working-process-list start -->
+                <div class="col-lg-3 col-sm-6 working-process-list mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <img class="arrow-shape" src="assets/images/working/arrow-shape2.png" alt="images_not_found" />
+                    <div class="icon">
+                        <img src="assets/images/working/2.png" alt="images_not_found" />
+                    </div>
+                    <h4 class="title">Collaboration</h4>
+                </div>
+                <!-- working-process-list end -->
+                <!-- working-process-list start -->
+                <div class="col-lg-3 col-sm-6 working-process-list mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <img class="arrow-shape" src="assets/images/working/arrow-shape1.png" alt="images_not_found" />
+                    <div class="icon">
+                        <img src="assets/images/working/3.png" alt="images_not_found" />
+                    </div>
+                    <h4 class="title">Integrity</h4>
+                </div>
+                <!-- working-process-list end -->
+                <!-- working-process-list start -->
+                <div class="col-lg-3 col-sm-6 working-process-list mb-4" data-aos="fade-up" data-aos-delay="700">
+                    <div class="icon">
+                        <img src="assets/images/working/4.png" alt="images_not_found" />
+                    </div>
+                    <h4 class="title">Innovation</h4>
+                </div>
+                <!-- working-process-list end -->
+            </div>
+        </div>
+    </section>
+    <!-- working process section end -->
+
+    <!-- testimonial section start -->
+
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="section-title primary text-center">
+                        <div class="icon">
+                            <img src="assets/images/icon/testimonial.png" alt="Icon_not_found" />
+                        </div>
+                        <h3 class="title">Client & Customer Reveiws</h3>
+                        <span class="hr-secodary"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row position-relative">
+                <div class="clients">
+                    <img src="assets/images/home/Avatar-Female.png" alt="images-not_found" class="client" />
+                    <img src="assets/images/home/Avatar-male.png" alt="images-not_found" class="client" />
+                    <img src="assets/images/home/Avatar-Female.png" alt="images-not_found" class="client" />
+                    <img src="assets/images/home/Avatar-male.png" alt="images-not_found" class="client" />
+                    <img src="assets/images/home/Avatar-Female.png" alt="images-not_found" class="client" />
+                    <img src="assets/images/home/Avatar-male.png" alt="images-not_found" class="client" />
+                </div>
+                <div class="col-12 mx-auto">
+                    <div class="testimonial-content position-relative">
+                        <img class="shape" src="assets/images/testimonial/shape.png" alt="images-not_found" />
+                        <div class="testimonial-carousel">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="profile-wrap">
+                                            <img class="testimonial-profile"
+                                            src="assets/images/home/Avatar-Female.png" alt="images-not_found" />
+                                            <span class="quote">“</span>
+                                        </div>
+
+                                        <p>
+                                            Techhut Solution is a good, strong company that truly cares about its
+                                            contractors. They offer such wonderful benefits it’s hard to imagine why
+                                            anyone would work anywhere else. The management runs a very tight ship and
+                                            the staff are always there to help.
+                                            They have a great reputation in the marketplace which gives them the ability
+                                            to hire only the cream of the crop. I love this company and plan to stay
+                                            here until I retire.
+                                        </p>
+                                        <h5 class="sub-title">Abby Garcia</h5>
+                                        <span class="designation">Manager</span>
+                                    </div>
+                                    <!-- swiper-slide end -->
+                                    <!-- swiper-slide start -->
+                                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="profile-wrap">
+                                            <img class="testimonial-profile"
+                                                src="assets/images/home/Avatar-male.png" alt="images-not_found" />
+                                            <span class="quote">“</span>
+                                        </div>
+
+                                        <p>
+                                            Techhut Solution is a good, strong company that truly cares about its
+                                            contractors. They offer such wonderful benefits it’s hard to imagine why
+                                            anyone would work anywhere else. The management runs a very tight ship and
+                                            the staff are always there to help.
+                                            They have a great reputation in the marketplace which gives them the ability
+                                            to hire only the cream of the crop. I love this company and plan to stay
+                                            here until I retire.
+                                        </p>
+                                        <h5 class="sub-title">Mark Thompson</h5>
+                                        <span class="designation">consultant</span>
+                                    </div>
+                                    <!-- swiper-slide end -->
+                                    <!-- swiper-slide start -->
+                                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="profile-wrap">
+                                            <img class="testimonial-profile" src="assets/images/home/Avatar-male.png"
+                                                alt="images-not_found" />
+                                            <span class="quote">“</span>
+                                        </div>
+
+                                        <p>
+                                            “I was placed by Techhut Solution a few years ago and when I had taken my new
+                                            role as a Java Developer. I contacted Techhut Solution to discuss my new
+                                            needs. Most importantly though they have helped me excel in my career as a
+                                            software developer in the competitive
+                                            market.”
+                                        </p>
+                                        <h5 class="sub-title">Mallikharjuna Rajasekhar Nagally</h5>
+                                        <span class="designation">Consultant</span>
+                                    </div>
+                                    <!-- swiper-slide end -->
+                                    <!-- swiper-slide start -->
+                                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="profile-wrap">
+                                            <img class="testimonial-profile" src="assets/images/home/Avatar-male.png"
+                                                alt="images-not_found" />
+                                            <span class="quote">“</span>
+                                        </div>
+
+                                        <p>
+                                            I have been with Techhut Solution for many years. As a senior level
+                                            consultant, I base my career decisions on these critical success
+                                            measurements: work life balance, consultant support services, client base
+                                            and market opportunities. The Techhut Solution
+                                            team develops and delivers enhanced client service by partnering with
+                                            executive leadership and line managers throughout the delivery cycle.
+                                        </p>
+                                        <h5 class="sub-title">Rakesh Reddy Baddam</h5>
+                                        <span class="designation">Consultant</span>
+                                    </div>
+                                    <!-- swiper-slide end -->
+                                    <!-- swiper-slide start -->
+                                    <!-- <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="profile-wrap">
+                                            <img class="testimonial-profile" src="assets/images/testimonial/lg-5.png" alt="images-not_found" />
+                                            <span class="quote">“</span>
+                                        </div>
+
+                                        <p>
+                                            Lorem Ipsum is simply dummy text the printing and typesetting as been the industry's standard dummy text ever since the 1500s when unknown printer took a galley of type and scrambled it to make specimen book has survived not only five centuries
+                                        </p>
+                                        <h5 class="sub-title">Georgia Jones</h5>
+                                        <span class="designation">Ui/Ux designer</span>
+                                    </div>
+                                    <!-- swiper-slide end -->
+                                    <!-- swiper-slide start -->
+                                    <!-- <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="profile-wrap">
+                                            <img class="testimonial-profile" src="assets/images/testimonial/lg-6.png" alt="images-not_found" />
+                                            <span class="quote">“</span>
+                                        </div>
+
+                                        <p>
+                                            Lorem Ipsum is simply dummy text the printing and typesetting as been the industry's standard dummy text ever since the 1500s when unknown printer took a galley of type and scrambled it to make specimen book has survived not only five centuries
+                                        </p>
+                                        <h5 class="sub-title">Georgia Jones</h5>
+                                        <span class="designation">Ui/Ux designer</span>
+                                    </div> -->-->
+                                    <!-- swiper-slide end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section end -->
+
+    <!-- brand section start -->
+    <div class="section-pb-150 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="brand-card brand-carousel">
+
+                        <p class="text-center ">
+                            <span class="text-gradient clients2 ">Clients Trusts Us</span>
+                        <p class="clients">
+                            Clients that trusts Tech Hut Solutions with our innovative and
+                            comprehensive solutions
+                        </p>
+                        </p>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- single slide start -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="logo-image" src="assets/images/brand-logo/kaiser.png"
+                                            alt="images-not_found" /></a>
+
+
+                                </div>
+
+                                <!-- single slide end -->
+                                <!-- single slide start -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="logo-image" src="assets/images/brand-logo/usbank.png"
+                                            alt="images-not_found" /></a>
+
+                                </div>
+                                <!-- single slide end -->
+                                <!-- single slide start -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="logo-image" src="assets/images/brand-logo/grainger.png"
+                                            alt="images-not_found" /></a>
+
+
+                                </div>
+
+                                <!-- single slide start -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="logo-image" src="assets/images/brand-logo/change.png"
+                                            alt="images-not_found" /></a>
+
+                                </div>
+                                <!-- single slide end -->
+                                <!-- single slide end -->
+                                <!-- single slide start -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="logo-image" src="assets/images/brand-logo/graco.png"
+                                            alt="images-not_found" /></a>
+                                </div>
+                                <!-- single slide end -->
+                                <!-- single slide end -->
+                                <!-- single slide start -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="logo-image" src="assets/images/brand-logo/plymouth.png"
+                                            alt="images-not_found" /></a>
+
+                                </div>
+                                <!-- single slide end -->
+                                <!-- single slide start -->
+
+
+                                <!-- single slide end -->
+                            </div>
+                        </div>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <footer class="footer-section position-relative">
+        <img class="footer-bg-shape" src="assets/images/footer/shape.png" alt="images_notFound" />
+        <img class="path-shape" src="assets/images/footer/path-shape.png" alt="images_notFound" />
+
+
+        <!-- <img class="shape" src="assets/images/footer/1.png" alt="images_notFound" /> -->
+        <div class="footer-top position-relative">
+            <div class="container">
+                <!-- Newsletter start -->
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                        <div class="section-title process text-center pb-4">
+                            <div class="icon">
+                                <img src="assets/images/icon/launcher.png" alt="Icon_not_found" />
+                            </div>
+                            <h3 class="title">Have Any Questions?</h3>
+                            <span class="hr-secodary"></span>
+                            <h3>Have any question about us, our services, or any questions in general? <br> Drop us an
+                                email at contactus@techhutsolutions.com</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+                        <div class="news-letter pb-100 text-center">
+                            <a href="contactus.html">
+                                <button class="btn btn-warning">
+
+                                    Contact Us <i class="icofont-rounded-double-right"></i>
+
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Newsletter end -->
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="footer-card">
+                            <div class="footer-row">
+                                <div class="footer-col">
+                                    <div class="footer-widget">
+                                        <a class="footer-logo" href="index.html">
+                                            <img class="footer-logo" src="Images/logofooter.png" alt="logo_not_found" />
+                                        </a>
+
+                                        <!-- <ul class="adress">
+                                            <li>
+                                                <p>
+                                                    Tech Hut Solutions is a fast, reliable, and affordable IT consulting
+                                                    firm in DFW Metroplex. We provide secure, reliable, and integrated
+                                                    technology solutions in alignment with management and administrative
+                                                    goals, while delivering excellence in customer service.
+
+                                                </p>
+
+                                            </li>
+
+                                        </ul> -->
+                                        <ul class="d-none" id="page-1">
+
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Redefining Retirement: The Benefits of
+                                                        Freelancing After 60
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Efficiency at Scale: A Tale of AWS Cost
+                                                        Optimization
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Designing GitHub’s Octoverse: A Data
+                                                        Visualization Case Study
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+
+
+                                        </ul>
+                                        <ul class="d-none" id="page-2">
+
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">1Redefining Retirement: The Benefits of
+                                                        Freelancing After 60
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Efficiency at Scale: A Tale of AWS Cost
+                                                        Optimization
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Designing GitHub’s Octoverse: A Data
+                                                        Visualization Case Study
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+
+
+                                        </ul>
+                                        <ul class="d-none" id="page-3">
+
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">2Redefining Retirement: The Benefits of
+                                                        Freelancing After 60
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Efficiency at Scale: A Tale of AWS Cost
+                                                        Optimization
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Designing GitHub’s Octoverse: A Data
+                                                        Visualization Case Study
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+
+
+                                        </ul>
+                                        <ul class="d-none" id="page-4">
+
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">3Redefining Retirement: The Benefits of
+                                                        Freelancing After 60
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Efficiency at Scale: A Tale of AWS Cost
+                                                        Optimization
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+                                            <a href="" style="color: white !important;">
+                                                <li class="">
+                                                    <h6 class="" style="">Designing GitHub’s Octoverse: A Data
+                                                        Visualization Case Study
+                                                    </h6>
+                                                </li>
+                                            </a>
+                                            <hr />
+
+
+                                        </ul>
+                                        <div class="nav-links" style="display:inline-flex">
+
+                                            <div class="nav-next alignleft wpra-feed-page ml-4 mr-4">
+                                                <span data-wpra-page="1" onclick="nextPage(this)" id="page-number-1"
+                                                    class="" style="color: white;margin-right: 10px;cursor: pointer;">
+                                                    1
+                                                </span>
+                                            </div>
+                                            <div class="nav-next alignleft wpra-feed-page ml-4 mr-4">
+                                                <span data-wpra-page="2" onclick="nextPage(this)" id="page-number-2"
+                                                    style="color: white;margin-right: 10px;cursor: pointer;">
+                                                    2
+                                                </span>
+                                            </div>
+                                            <span class="alignleft wpra-feed-current-page" onclick="nextPage(this)"
+                                                id="page-number-3"
+                                                style="color: white;margin-right: 10px;cursor: pointer;">
+                                                3
+                                            </span>
+                                            <div class="nav-next alignleft wpra-feed-page ml-4 mr-4">
+                                                <span data-wpra-page="4" onclick="nextPage(this)" id="page-number-4"
+                                                    style="color: white;margin-right: 10px;cursor: pointer;">
+                                                    4
+                                                </span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="footer-col">
+                                    <div class="footer-widget">
+                                        <h4 class="title">Site Map</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a class="footer-link" href="index.html">
+                                                    <i class="icofont-rounded-double-right"></i>Home</a>
+                                            </li>
+                                            <li>
+                                                <a class="footer-link" href="aboutus.html">
+                                                    <i class="icofont-rounded-double-right"></i>About Us</a>
+                                            </li>
+                                            <li>
+                                                <a class="footer-link" href="industries.html">
+                                                    <i class="icofont-rounded-double-right"></i>Industries</a>
+                                            </li>
+                                            <li>
+                                                <a class="footer-link" href="services.html">
+                                                    <i class="icofont-rounded-double-right"></i>Services</a>
+                                            </li>
+                                            <li>
+                                                <a class="footer-link" href="careers.html">
+                                                    <i class="icofont-rounded-double-right"></i>Careers</a>
+                                            </li>
+                                            <li>
+                                                <a class="footer-link" href="mytechhut.html">
+                                                    <i class="icofont-rounded-double-right"></i>My Tech Hut</a>
+                                            </li>
+                                            <li>
+                                                <a class="footer-link" href="contactus.html">
+                                                    <i class="icofont-rounded-double-right"></i>Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer-col">
+                                    <div class="footer-widget">
+                                        <h4 class="title">Current Opennings</h4>
+                                        <div class="d-none" id="job-div-1">
+                                            <ul class="footer-jobs">
+
+
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst 2</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                                display: inline;
+                                                                padding: 0;
+                                                                margin: 0 0.5em 0 0;
+                                                                font-weight: normal;">Irving, TX</li>
+                                                             
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+
+                                            </ul>
+                                        </div>
+                                  
+                                        <div class="d-none" id="job-div-2">
+                                            <ul class="footer-jobs">
+
+
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst 2</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                                display: inline;
+                                                                padding: 0;
+                                                                margin: 0 0.5em 0 0;
+                                                                font-weight: normal;">Irving, TX</li>
+                                                             
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+
+                                            </ul>
+                                        </div>
+                                        <div class="d-none" id="job-div-3">
+                                            <ul class="footer-jobs">
+
+
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst 2</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                                display: inline;
+                                                                padding: 0;
+                                                                margin: 0 0.5em 0 0;
+                                                                font-weight: normal;">Irving, TX</li>
+                                                             
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+
+                                            </ul>
+                                        </div>
+                                        <div class="d-none" id="job-div-4">
+                                            <ul class="footer-jobs">
+
+
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst 2</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                                display: inline;
+                                                                padding: 0;
+                                                                margin: 0 0.5em 0 0;
+                                                                font-weight: normal;">Irving, TX</li>
+                                                             
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+                                                <hr>
+                                                <a href="" style="color:white!important">
+                                                    <li class="">
+                                                        <div class="job-name ">Test Analyst</div>
+                                                        <div class="job-details">
+                                                            <ul class="meta"
+                                                                style="float: none;width: auto;padding: 0;margin: 0;text-align: left;">
+                                                                <li class="location meta-dot" style="float: none;
+                                                            display: inline;
+                                                            padding: 0;
+                                                            margin: 0 0.5em 0 0;
+                                                            font-weight: normal;">Irving, TX</li>
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </a>
+
+                                            </ul>
+                                        </div>
+                                  
+                                  
+                                  
+                                    </div>
+                                </div>
+                                <div class="footer-col">
+                                    <div class="footer-widget">
+                                        <h4 class="title">Follow Us</h4>
+                                        <ul class="adress">
+                                            <li>
+
+                                                <span class="icon"><i class="icofont-ui-call"></i></span>
+                                                <a href="tel:0123456789">(+88) 454 632 897</a>
+                                            </li>
+                                            <li>
+                                                <span class="icon"><i class="icofont-send-mail"></i></span>
+                                                <a href="mailto:demo@gmail.com">contactus@techhutsolutions.com</span>
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="icofont-google-map">
+                                                    </i>
+                                                </span>
+                                                <span></span>
+                                                222 West Las Colinas Boulevard 
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1650 Irving, TX 75039
+                                            </li>
+
+                                        </ul>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- coppy right satrt -->
+        <div class="copy-right-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            Copyright &copy;
+                            <span id="currentYear"></span>
+                            Tech Hut Solutions.
+                            All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- coppy right end -->
+    </footer>
+
+
+
+
+    <script src="assets/js/vendor/vendor.min.js"></script>
+    <script src="assets/js/plugins/plugins.min.js"></script>
+    <script src="assets/js/ajax-contact.js"></script>
+    <script src="assets/js/plugins/aos.js"></script>
+    <script src="assets/js/plugins/waypoints.js"></script>
+    <script src="assets/js/plugins/jquery.selectric.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script type="text/javascript">
+
+
+    </script>
+</body>
